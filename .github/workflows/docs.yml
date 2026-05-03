@@ -1,28 +1,55 @@
-name: Documentation
+name: Build Web to gh-pages
+
 on:
   push:
     branches:
       - main
+
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
+
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/configure-pages@v6
-      - uses: actions/checkout@v6
-      - uses: actions/setup-python@v6
+      # 1. Checkout repo (with submodules if needed)
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      # 2. Setup Python
+      - uses: actions/setup-python@v5
         with:
           python-version: 3.x
+
+      # 3. Install Zensical
       - run: pip install zensical
+
+      # 4. Build site
       - run: zensical build --clean
-      - uses: actions/upload-pages-artifact@v5
+
+      # 5. Checkout gh-pages branch
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
         with:
-          path: site
-      - uses: actions/deploy-pages@v5
-        id: deployment
+          ref: gh-pages
+          path: gh-pages
+
+      # 6. Copy build output into gh-pages
+      - name: Copy site to gh-pages
+        run: |
+          rm -rf gh-pages/*
+          cp -r site/* gh-pages/
+
+      # 7. Commit and push to gh-pages
+      - name: Deploy to gh-pages branch
+        run: |
+          cd gh-pages
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add .
+          git commit -m "deploy docs" || echo "No changes"
+          git push
