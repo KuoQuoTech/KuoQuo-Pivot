@@ -82,6 +82,10 @@ repo_url="https://github.com/KuoQuoTech/KuoQuo-Pivot"
 repo_name = "KuoQuoTech/KuoQuo-Pivot"
 repo = "fontawesome/brands/git-alt"
 
+# Build configs
+docs_dir = "web"
+site_dir = "docs"
+
 
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
