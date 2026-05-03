@@ -21,7 +21,7 @@ site_author = "KuoQuo"
 
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
-site_url = "https://docs.kuoquo.com/pivot"
+site_url = "https://docs.kuoquo.com/pivot/"
 
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
@@ -77,10 +77,11 @@ nav = [
 #
 #extra_javascript = ["javascripts/extra.js"]
 
-# Repository Settings
+# Repository settings
 repo_url="https://github.com/KuoQuoTech/KuoQuo-Pivot"
 repo_name = "KuoQuoTech/KuoQuo-Pivot"
 repo = "fontawesome/brands/git-alt"
+
 
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
