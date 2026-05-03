@@ -342,7 +342,7 @@ invalid_link_anchors = true
 # ----------------------------------------------------------------------------
 [project.extra.analytics]
 provider = "google"
-property = "535782230"
+property = "G-TVQKTHDD7W"
 
 [project.extra.consent]
 title = "Cookie consent"
