@@ -13,7 +13,7 @@ site_name = "KuoQuo Pivot"
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
-site_description = "Open Source Smart Ring"
+site_description = "KuoQuo Pivot - Open source smart ring"
 
 # The site_author attribute. This is used in the HTML head element.
 #
@@ -21,12 +21,11 @@ site_author = "KuoQuo"
 
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
-site_url = "https://docs.kuoquo.com/KuoQuo-Pivot/"
+site_url = "https://docs.kuoquo.com/pivot/"
 
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
 #
-# Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
 Copyright &copy; 2026 KuoQuo
 """
@@ -39,7 +38,7 @@ Copyright &copy; 2026 KuoQuo
 #
 nav = [
   { "Get started" = [
-      "GetStarted/GetStarted.md",
+      "index.md",
       "GetStarted/DesignRationale.md",
       "GetStarted/CreateYourDevBoard.md",
       "GetStarted/CreateYourSmartRing.md",
@@ -96,14 +95,12 @@ repo = "fontawesome/brands/git-alt"
 # the custom_dir setting below and set it to a directory in which you
 # keep your template overrides.
 #
-# Read more:
 #custom_dir = "overrides"
 
 # With the "favicon" option you can set your own image to use as the icon
 # browsers will use in the browser title bar or tab bar. The path provided
 # must be relative to the "docs_dir".
 #
-# Read more:
 favicon = "images/KuoQuo_favicon_48x48.png"
 
 # Zensical supports more than 60 different languages. This means that the

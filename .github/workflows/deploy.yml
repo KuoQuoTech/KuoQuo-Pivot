@@ -53,3 +53,12 @@ jobs:
           git add .
           git commit -m "deploy docs" || echo "No changes"
           git push
+
+      # 8. Trigger Submodule Update in Target Repo
+      - name: Trigger Submodule Update in .github repo
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.MY_EXTERNAL_REPO_PAT }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/KuoQuoTech/.github/dispatches \
+            -d '{"event_type": "update_submodule"}'

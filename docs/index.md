@@ -1,4 +1,9 @@
 ---
-repo_url: https://github.com/username/second-repo
-edit_uri: https://github.com/username/second-repo/edit/main/docs/
+icon: lucide/rocket
 ---
+
+# Get started
+
+!!!note "This section is currently under development."
+
+    We’re actively working on it and will have updates available soon. Thank you for your patience!
