@@ -1,81 +1,40 @@
-# 💍 KuoQuo Pivot
+# KuoQuo Pivot
 
-An **open-source, programmable smart ring** built for developers.
+The KuoQuo Pivot Smart Ring is an open, developer-friendly wearable platform focused on embedded systems experimentation, rapid prototyping, and future productization of smart ring technology.
 
-Designed for embedded systems experimentation, rapid prototyping, and wearable sensing, this project focuses on building a **real, fully functional smart ring** — not just a dev board.
+---
 
-It started as a pivot from KuoQuo content and is evolving toward a **production-ready, developer-friendly open-source wearable**.
+## Documentation
 
-# 📢 Announcement
+Full documentation for this project is available in the documentation portal:
 
-> 🚧 **This project is actively under development**  
-> The smart ring platform is currently in a rapid iteration stage. Hardware, firmware, and features are evolving quickly and may change frequently.  
->
-> 💡 I'm sharing progress publicly to:
-> - Document the full engineering journey  
-> - Get feedback from other developers  
-> - Move toward an open, developer-friendly smart ring ecosystem  
->
-> ⚠️ Expect incomplete features, breaking changes, and experimental implementations.
+👉 [https://docs.kuoquo.com/pivot](https://docs.kuoquo.com/pivot)
 
-## 🚀 Overview
+The documentation includes:
 
+* System architecture
+* API references
+* Hardware integration guides
+* Firmware development notes
+* Deployment instructions
 
-## 🧩 Current Features (Work in Progress)
+---
 
-## 📊 Development Progress
+## License
 
-### 🔵 Hardware
+This project uses a **dual licensing model**:
 
-### 🟡 Firmware
+* Open-source use is governed by the AGPLv3 license (see `LICENSE`).
+* Commercial use requires a separate commercial agreement with KuoQuo.
 
-### 🟣 Software / Ecosystem
+---
 
-### 🔴 Mechanical
+## Disclaimer
 
-## ⚠️ Project Status
+See `DISCLAIMER.md` for full liability and warranty terms.
 
-<!-- > 🚧 **Active Development — Not Production Ready**
+---
 
-This project is evolving rapidly:
-- Hardware may change between revisions  
-- Firmware is experimental  
-- APIs and interfaces are not stable  
+## Status
 
-Expect breaking changes. -->
-
-
-## 🎯 Goals
-
-<!-- **Short-term:**
-- Stabilize firmware + sensor pipeline  
-- Reduce power consumption  
-- Improve hardware reliability   -->
-
-**Long-term:**
-<!-- - Open-source smart ring platform  
-- Production-capable design  
-- Developer ecosystem (SDK + docs)   -->
-
-
-## 🧪 Use Cases
-<!-- 
-- Wearable prototyping  
-- Embedded systems learning  
-- Sensor experimentation  
-- BLE development  
-- Health-tech research   -->
-
-## 🤝 Contributions / Collaboration
-
-This project is still early, but collaboration is welcome:
-<!-- - Hardware design feedback  
-- Firmware optimization  
-- Sensor integration  
-- Power efficiency improvements   -->
-
-## 📺 Related Content
-
-## 🧠 Notes
-
-## 📌 Disclaimer
+This project is currently under active development. APIs, hardware interfaces, and documentation may change without notice.
