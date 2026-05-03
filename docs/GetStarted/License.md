@@ -25,7 +25,7 @@ This means:
 * Commercial use: allowed **if the deployed derivative work is open source under AGPLv3**
 * SaaS / hosted use: source code sharing required for modified versions
 
-[GNU Affero General Public License v3.0](./pivot/GetStarted/LicenseNonCommercial.md)
+[GNU Affero General Public License v3.0](./LicenseNonCommercial.md)
 
 
 ## License Option B — Commercial Proprietary License
@@ -47,7 +47,7 @@ must obtain a separate **Commercial License Agreement** from KuoQuo.
 * Priority support (optional)
 * Custom negotiated terms
 
-[KuoQuo Commercial License V1.0](./pivot/GetStarted/LicenseCommercial.md)
+[KuoQuo Commercial License V1.0](./LicenseCommercial.md)
 
 
 ## Practical Summary

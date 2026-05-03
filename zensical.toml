@@ -39,25 +39,25 @@ Copyright &copy; 2026 KuoQuo
 #
 nav = [
   { "Get started" = [
-      "pivot/GetStarted/GetStarted.md",
-      "pivot/GetStarted/DesignRationale.md",
-      "pivot/GetStarted/CreateYourDevBoard.md",
-      "pivot/GetStarted/CreateYourSmartRing.md",
-      "pivot/GetStarted/License.md",
-      "pivot/GetStarted/LicenseNonCommercial.md",
-      "pivot/GetStarted/LicenseCommercial.md",
+      "GetStarted/GetStarted.md",
+      "GetStarted/DesignRationale.md",
+      "GetStarted/CreateYourDevBoard.md",
+      "GetStarted/CreateYourSmartRing.md",
+      "GetStarted/License.md",
+      "GetStarted/LicenseNonCommercial.md",
+      "GetStarted/LicenseCommercial.md",
     ],
   },
   { "Hardware" = [
-      "pivot/Hardware/HardwareOverview.md",
+      "Hardware/HardwareOverview.md",
     ]
   },
   { "Firmware" = [
-      "pivot/Firmware/FirmwareOverview.md",
+      "Firmware/FirmwareOverview.md",
     ]
   },
   { "Software" = [
-      "pivot/Software/SoftwareOverview.md",
+      "Software/SoftwareOverview.md",
     ]
   },
 ]
