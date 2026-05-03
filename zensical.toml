@@ -39,25 +39,25 @@ Copyright &copy; 2026 KuoQuo
 #
 nav = [
   { "Get started" = [
-      "GetStarted/GetStarted.md",
-      "GetStarted/DesignRationale.md",
-      "GetStarted/CreateYourDevBoard.md",
-      "GetStarted/CreateYourSmartRing.md",
-      "GetStarted/License.md",
-      "GetStarted/LicenseNonCommercial.md",
-      "GetStarted/LicenseCommercial.md",
+      "pivot/GetStarted/GetStarted.md",
+      "pivot/GetStarted/DesignRationale.md",
+      "pivot/GetStarted/CreateYourDevBoard.md",
+      "pivot/GetStarted/CreateYourSmartRing.md",
+      "pivot/GetStarted/License.md",
+      "pivot/GetStarted/LicenseNonCommercial.md",
+      "pivot/GetStarted/LicenseCommercial.md",
     ],
   },
   { "Hardware" = [
-      "Hardware/HardwareOverview.md",
+      "pivot/Hardware/HardwareOverview.md",
     ]
   },
   { "Firmware" = [
-      "Firmware/FirmwareOverview.md",
+      "pivot/Firmware/FirmwareOverview.md",
     ]
   },
   { "Software" = [
-      "Software/SoftwareOverview.md",
+      "pivot/Software/SoftwareOverview.md",
     ]
   },
 ]
@@ -186,7 +186,7 @@ features = [
 
     # In order to provide a better user experience on slow connections when
     # using instant navigation, a progress indicator can be enabled.
-    #"navigation.instant.progress",
+    "navigation.instant.progress",
 
     # When navigation paths are activated, a breadcrumb navigation is rendered
     # above the title of each page
