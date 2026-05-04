@@ -12,38 +12,35 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    steps:
-      # 1. Checkout repo (with submodules if needed)
-      - uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
+    environment: github-pages
 
-      # 2. Setup Python
+    steps:
+
+      # 1. Setup Python
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
 
-      # 3. Install Zensical
+      # 2. Install Zensical
       - run: pip install zensical
 
-      # 4. Build site
+      # 3. Build site
       - run: zensical build --clean
 
-      # 5. Checkout gh-pages branch
+      # 4. Checkout gh-pages branch
       - name: Checkout gh-pages
         uses: actions/checkout@v4
         with:
           ref: gh-pages
           path: gh-pages
 
-      # 6. Copy build output into gh-pages
+      # 5. Copy build output into gh-pages
       - name: Copy site to gh-pages
         run: |
           rm -rf gh-pages/*
           cp -r site/* gh-pages/
 
-      # 7. Commit and push to gh-pages
+      # 6. Commit and push to gh-pages
       - name: Deploy to gh-pages branch
         run: |
           cd gh-pages
@@ -54,7 +51,7 @@ jobs:
           git commit -m "deploy docs" || echo "No changes"
           git push
 
-      # 8. Trigger Submodule Update in Target Repo
+      # 7. Trigger Submodule Update in Target Repo
       - name: Trigger Submodule Update
         env:
           GH_PAT: ${{ secrets.MY_EXTERNAL_REPO_PAT }}
