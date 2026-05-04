@@ -55,12 +55,14 @@ jobs:
           git push
 
       # 8. Trigger Submodule Update in Target Repo
-      - name: Trigger Submodule Update in .github repo
+      - name: Trigger Submodule Update
+        env:
+          MY_PAT: ${{ secrets.MY_EXTERNAL_REPO_PAT }}
         run: |
           curl -L \
             -X POST \
             -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer ${{ secrets.MY_EXTERNAL_REPO_PAT }}" \
+            -H "Authorization: Bearer $MY_PAT" \
             -H "X-GitHub-Api-Version: 2026-03-10" \
             https://api.github.com/repos/KuoQuoTech/.github/dispatches \
             -d '{"event_type": "update_submodule", "client_payload": {"unit": "pivot_sync", "integration": "zensical"}}'
