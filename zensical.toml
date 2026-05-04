@@ -37,6 +37,7 @@ Copyright &copy; 2026 KuoQuo
 # can be defined using TOML syntax.
 #
 nav = [
+  {"Home" = "https://docs.kuoquo.com/"},
   { "Get started" = [
       "index.md",
       "GetStarted/DesignRationale.md",
