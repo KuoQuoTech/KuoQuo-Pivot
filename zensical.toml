@@ -44,8 +44,10 @@ nav = [
       "GetStarted/CreateYourDevBoard.md",
       "GetStarted/CreateYourSmartRing.md",
       "GetStarted/License.md",
-      "GetStarted/LicenseNonCommercial.md",
+      "GetStarted/LicenseGNUGPLv3.md",
+      "GetStarted/LicenseCERN-OHL-S-2.0.md",
       "GetStarted/LicenseCommercial.md",
+      "GetStarted/Notice.md",
     ],
   },
   { "Hardware" = [

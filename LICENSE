@@ -1,0 +1,11 @@
+# License
+
+This project uses a **dual licensing model** covering both software and hardware components.
+
+- The software is available under either the **GNU AGPLv3 (open-source copyleft)** or a **commercial proprietary license**.
+- The hardware designs are available under either the **CERN Open Hardware Licence v2 (Strongly Reciprocal)** or a **commercial hardware license**.
+
+By using this project, you agree to the terms of the selected license path.
+
+For full details, including obligations, restrictions, and commercial licensing options, see:  
+https://docs.kuoquo.com/pivot/GetStarted/License.html

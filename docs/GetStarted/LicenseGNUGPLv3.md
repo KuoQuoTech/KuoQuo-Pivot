@@ -2,7 +2,7 @@
 icon: lucide/scale
 ---
 
-# Non Commercial
+#  GNU GPLv3
 
 ## GNU AFFERO GENERAL PUBLIC LICENSE
 
