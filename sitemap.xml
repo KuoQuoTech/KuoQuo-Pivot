@@ -16,10 +16,16 @@
         <loc>https://docs.kuoquo.com/pivot/GetStarted/License.html</loc>
       </url>
       <url>
-        <loc>https://docs.kuoquo.com/pivot/GetStarted/LicenseNonCommercial.html</loc>
+        <loc>https://docs.kuoquo.com/pivot/GetStarted/LicenseGNUGPLv3.html</loc>
+      </url>
+      <url>
+        <loc>https://docs.kuoquo.com/pivot/GetStarted/LicenseCERN-OHL-S-2.0.html</loc>
       </url>
       <url>
         <loc>https://docs.kuoquo.com/pivot/GetStarted/LicenseCommercial.html</loc>
+      </url>
+      <url>
+        <loc>https://docs.kuoquo.com/pivot/GetStarted/Notice.html</loc>
       </url>
       <url>
         <loc>https://docs.kuoquo.com/pivot/Hardware/HardwareOverview.html</loc>
