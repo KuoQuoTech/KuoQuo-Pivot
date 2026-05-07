@@ -28,7 +28,6 @@ Unlike closed commercial smart rings, this project emphasizes:
 
 The purpose of this document is to explain **why** major design decisions are made and how stakeholder needs translate into technical requirements.
 
----
 
 ## Problem Statement
 
@@ -49,13 +48,11 @@ There is currently a gap between:
 
 KuoQuo Pivot aims to bridge this gap.
 
----
 
 ## Vision Statement
 
 Create an open smart ring platform that enables makers, engineers, researchers, and startups to rapidly build next-generation wearable products.
 
----
 
 ## Stakeholders
 
@@ -102,7 +99,6 @@ Needs:
 - Good battery life
 - Stable Bluetooth connection
 
----
 
 ### Secondary Stakeholders
 
@@ -127,7 +123,6 @@ Needs:
 - Modular interfaces
 - Expandable firmware architecture
 - Easy customization for commercial or research us
----
 
 ## Key Requirements
 
@@ -166,7 +161,6 @@ Needs:
 - Support common mobile platforms
 - Standard BLE profiles where practical
 
----
 
 ## Design Constraints
 
@@ -188,7 +182,6 @@ Needs:
 - Assembly yield risk
 - Sensor BOM pricing
 
----
 
 ## Major Design Decisions and Rationale
 
@@ -233,7 +226,6 @@ Chosen because:
 - Builds community
 - Enables future ecosystem
 
----
 
 ## Risks and Mitigations
 
@@ -268,7 +260,6 @@ Mitigation:
 - Prioritize MVP first
 - Separate content goals from engineering goals
 
----
 
 ## MVP Definition
 
@@ -280,7 +271,6 @@ First successful version should include:
 - Stable firmware updates
 - Wearable prototype shell
 
----
 
 ## Future Expansion
 
@@ -291,7 +281,6 @@ First successful version should include:
 - Third-party modules
 - Production-ready waterproof enclosure
 
----
 
 ## Success Metrics
 
@@ -301,7 +290,6 @@ First successful version should include:
 - Repeatable assembly process
 - Community interest / GitHub traction
 
----
 
 ## Conclusion
 

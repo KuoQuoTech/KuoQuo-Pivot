@@ -11,9 +11,8 @@ The goal of this licensing structure is to:
 3. Support commercial adoption
 4. Provide proprietary licensing options for organizations that require closed-source usage
 
----
 
-# Software Licensing
+## Software Licensing
 
 The software components of this project are licensed under either:
 
@@ -31,13 +30,12 @@ This applies to, but is not limited to:
 * embedded software
 * tooling and utilities
 
----
 
-## Software License Option A — Community / Open Use License
+### Software License Option A — Community / Open Use License
 
 We recommend using the **GNU Affero General Public License v3.0 (AGPLv3)**.
 
-### Why AGPLv3?
+#### Why AGPLv3?
 
 AGPLv3 is an established copyleft license that requires users who modify and deploy the software over a network to provide source code of their modified version.
 
@@ -49,7 +47,7 @@ This means:
 * Commercial use: allowed **if the deployed derivative work is open source under AGPLv3**
 * SaaS / hosted use: source code sharing required for modified versions
 
-### AGPLv3 Requirements
+#### AGPLv3 Requirements
 
 If you distribute or deploy modified versions of the software:
 
@@ -60,9 +58,8 @@ If you distribute or deploy modified versions of the software:
 
 [GNU Affero General Public License v3.0](./LicenseGNUGPLv3.md)
 
----
 
-## Software License Option B — Commercial Proprietary License
+### Software License Option B — Commercial Proprietary License
 
 Organizations that want to:
 
@@ -74,7 +71,7 @@ Organizations that want to:
 
 must obtain a separate **Commercial License Agreement** from KuoQuo.
 
-### Commercial Software License Includes
+#### Commercial Software License Includes
 
 * Closed-source usage rights
 * Proprietary deployment rights
@@ -85,9 +82,8 @@ must obtain a separate **Commercial License Agreement** from KuoQuo.
 
 [KuoQuo Commercial Software License](./LicenseCommercial.md)
 
----
 
-# Hardware Licensing
+## Hardware Licensing
 
 The hardware components of this project are licensed under either:
 
@@ -107,13 +103,12 @@ This applies to, but is not limited to:
 * manufacturing documentation
 * assembly files
 
----
 
-## Hardware License Option A — Open Hardware License
+### Hardware License Option A — Open Hardware License
 
 We recommend using the **CERN Open Hardware Licence Version 2 — Strongly Reciprocal (CERN-OHL-S-2.0)**.
 
-### Why CERN-OHL-S-2.0?
+#### Why CERN-OHL-S-2.0?
 
 CERN-OHL-S-2.0 is an established copyleft hardware license specifically designed for open-source hardware projects.
 
@@ -127,7 +122,7 @@ This means:
 * Commercial manufacturing: allowed **if derivative hardware designs remain open under CERN-OHL-S-2.0**
 * Distribution of modified hardware: corresponding design files sharing required
 
-### CERN-OHL-S-2.0 Requirements
+#### CERN-OHL-S-2.0 Requirements
 
 If you distribute modified hardware designs or manufactured derivatives:
 
@@ -138,9 +133,8 @@ If you distribute modified hardware designs or manufactured derivatives:
 
 [CERN Open Hardware Licence Version 2](./LicenseCERN-OHL-S-2.0.md)
 
----
 
-## Hardware License Option B — Commercial Proprietary Hardware License
+### Hardware License Option B — Commercial Proprietary Hardware License
 
 Organizations that want to:
 
@@ -152,7 +146,7 @@ Organizations that want to:
 
 must obtain a separate **KuoQuo Hardware Commercial License** from KuoQuo.
 
-### Commercial Hardware License Includes
+#### Commercial Hardware License Includes
 
 * Closed-source hardware usage rights
 * Proprietary manufacturing rights
@@ -163,9 +157,8 @@ must obtain a separate **KuoQuo Hardware Commercial License** from KuoQuo.
 
 [KuoQuo Hardware Commercial License](./LicenseCommercial.md)
 
----
 
-# Practical Summary
+## Practical Summary
 
 | Use Case                                | AGPLv3 Software | CERN-OHL-S-2.0 Hardware | Requires Commercial License |
 | --------------------------------------- | ---------------- | ------------------------ | --------------------------- |
@@ -179,9 +172,8 @@ must obtain a separate **KuoQuo Hardware Commercial License** from KuoQuo.
 | Proprietary firmware distribution       | :material-close: | N/A                      | :material-check:            |
 | Closed-source consumer hardware product | :material-close: | :material-close:         | :material-check:            |
 
----
 
-# Disclaimer
+## Disclaimer
 
 This software, hardware designs, documentation, and related materials are provided **"as is"** without warranty of any kind, either express or implied.
 
